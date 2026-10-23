@@ -10,7 +10,7 @@ Image classification of 6 oral conditions using PyTorch. I trained a custom resi
 > ⚠️ Educational project only. Not a medical diagnosis tool.
 
 <!-- 📸 IMAGE: screenshot of the deployed app with a prediction -->
-![App screenshot](images/app_screenshot.png)
+![App screenshot](/images/app_screenshot.png)
 
 ---
 
@@ -74,7 +74,7 @@ Training setup: Adam, ReduceLROnPlateau, mixed precision, best checkpoint chosen
 - Transfer learning helped the minority classes the most (Caries F1: 0.49 → 0.81).
 
 <!-- 📸 IMAGE: confusion matrix of EfficientNet-B0 -->
-![Confusion matrix](images/confusion_matrix_effnet.png)
+![Confusion matrix](/images/confusion_matrix_effnet.png)
 
 ---
 
@@ -83,7 +83,7 @@ Training setup: Adam, ReduceLROnPlateau, mixed precision, best checkpoint chosen
 Grad-CAM heatmaps show which image regions drive the EfficientNet-B0 prediction.
 
 <!-- 📸 IMAGE: Grad-CAM grid, one image per class -->
-![Grad-CAM](images/gradcam.png)
+![Grad-CAM](/images/gradcam.png)
 
 ---
 
